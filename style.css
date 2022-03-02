@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 *, *::before, *::after {
     margin: 0;
@@ -8,11 +9,42 @@
 
 }
 
+html {
+    font-family: "Poppins", sans-serif;
+}
 
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: row;
-    
 
 }
+
+#left-side {
+    background-image: url(../sign-up-form/src/signup-image.jpg);
+    flex: 1;
+    max-width: 527px;
+}
+
+.left-right {
+    padding-left: 55px;
+    padding-right: 45px;
+
+}
+
+#right-side {
+    flex: 1;
+
+}
+
+#top-text {
+    padding-right: 70px;
+    padding-top: 165px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: whitesmoke;
+}
+
+#form-header { font-size: 23px; color: #313131; font-weight: 700;}
+
