@@ -66,13 +66,13 @@ input {
 }
 
 div > label {font-size: 13px; color: #313131; font-weight: 700;}
-input:focus {
+.validInput:focus {
     outline: none;
     border: 1px solid #4e5ce0;
     box-shadow: 0 0 10px #194b80;
 }
 
-input:invalid {
+.invalid {
     outline: none;
     border: 1px solid #e0584e;
     box-shadow: 0 0 0px;
