@@ -46,5 +46,34 @@ body {
     background-color: whitesmoke;
 }
 
-#form-header { font-size: 23px; color: #313131; font-weight: 700;}
+#form-header { font-size: 23px; color: #313131; font-weight: 700;padding-top: 14px; padding-bottom: 14px;}
 
+form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+form > div {
+    padding-right: 70px;
+    padding-bottom: 15px;
+}
+
+input {
+    height: 27px;
+    outline: none;
+    
+}
+
+div > label {font-size: 13px; color: #313131; font-weight: 700;}
+input:focus {
+    outline: none;
+    border: 1px solid #4e5ce0;
+    box-shadow: 0 0 10px #194b80;
+}
+
+input:invalid {
+    outline: none;
+    border: 1px solid #e0584e;
+    box-shadow: 0 0 0px;
+}
