@@ -23,7 +23,10 @@ body {
 #left-side {
     background-image: url(../sign-up-form/src/signup-image.jpg);
     flex: 1;
-    max-width: 527px;
+    max-width: 487px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .left-right {
@@ -32,6 +35,13 @@ body {
 
 }
 
+.black-box {
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    background-color: black;
+    opacity: 0.6;
+}
 #right-side {
     flex: 1;
 
@@ -52,6 +62,7 @@ form {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+
 }
 
 form > div {
@@ -76,4 +87,21 @@ div > label {font-size: 13px; color: #313131; font-weight: 700;}
     outline: none;
     border: 1px solid #e0584e;
     box-shadow: 0 0 0px;
+}
+
+#footer {
+    background-color: whitesmoke;
+
+}
+
+
+button {
+    margin-top: 32px;
+    padding: 14px 45px 14px 45px;
+    font-size: 16px;
+    background-color: rgb(22, 22, 61);
+    color: white;
+    border-radius: 12px;
+    font-weight: 600;
+    border: 1px solid rgb(22, 22, 61);;
 }
